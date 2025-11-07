@@ -1,0 +1,29 @@
+{
+  "name": "ai_resume_enhancer_services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souravmishra110/ai_resume_enhancer_services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souravmishra110/ai_resume_enhancer_services/issues"
+  },
+  "homepage": "https://github.com/souravmishra110/ai_resume_enhancer_services#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "multer": "^2.0.2",
+    "openai": "^6.8.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
